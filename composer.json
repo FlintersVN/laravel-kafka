@@ -1,6 +1,11 @@
 {
   "name": "septech-laravel/kafka",
   "description": "Rdkafka connector for Laravel",
+  "keywords": [
+    "laravel-kafka",
+    "kafka",
+    "laravel-package"
+  ],
   "license": ["MIT"],
   "authors": [
     {
