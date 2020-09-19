@@ -1,0 +1,30 @@
+{
+  "name": "septech-laravel/kafka",
+  "description": "Rdkafka connector for Laravel",
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Đỗ Anh Tuấn",
+      "email": "tuan_da@septeni-technology.jp"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Septech\\Kafka\\": "src"
+    }
+  },
+  "require": {
+    "ext-rdkafka": "*",
+    "illuminate/support": "^v7.0.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Septech\\Kafka\\KafkaServerProvider"
+      ]
+    }
+  }
+}
