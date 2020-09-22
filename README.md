@@ -7,6 +7,12 @@ composer require septech-laravel/kafka
 
 ## Usage
 
+### Environment variables
+```
+# The kafka brokers, seperate by command
+KAFKA_BROKERS=10.0.0.2,127.0.0.1
+```
+
 ### Via injection
 
 ```php

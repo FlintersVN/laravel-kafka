@@ -2,7 +2,5 @@
 
 return [
     // Brokers address
-    'brokers' => [
-        "10.0.0.70:9092"
-    ],
+    'brokers' => array_filter(explode(',',env('KAFKA_BROKERS', ''))),
 ];
