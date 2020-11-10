@@ -1,6 +1,6 @@
 # Release Notes
 
-## [Unreleased](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0....master)
+## [Unreleased](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.3...master)
 
 ## [v1.0.3 - 2020-11-10](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.1...v1.0.3)
 
