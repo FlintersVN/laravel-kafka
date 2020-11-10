@@ -7,10 +7,9 @@ return [
         'log_level' => LOG_DEBUG,
         'debug' => 'all',
         'security.protocol' => 'ssl',
-        'ssl.truststore.type' => 'JKS',
-        'ssl.truststore.location' => env('KAFKA_SSL_TRUSTSTORE_LOCATION'),
-        'ssl.truststore.password' => env('KAFKA_SSL_TRUSTSTORE_PASSWORD'),
-        'ssl.keystore.location' => env('KAFKA_SSL_KEYSTORE_LOCATION'),
-        'ssl.keystore.password' => env('KAFKA_SSL_KEYSTORE_PASSWORD')
+        'ssl.ca.location' => env('KAFKA_SSL_CA_LOCATION'),
+        'ssl.certificate.location' => env('KAFKA_SSL_CERTIFICATE_LOCATION'),
+        'ssl.key.location' => env('KAFKA_SSL_KEY_LOCATION'),
+        'ssl.key.password' => env('KAFKA_SSL_KEY_PASSWORD')
     ]
 ];
