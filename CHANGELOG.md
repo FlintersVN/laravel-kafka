@@ -8,11 +8,11 @@
 - Using config from env variables for SSL connection (Kafka SSL client)
 ```
 KAFKA_SSL_CA_LOCATION=./ca.crt
-KAFKA_SSL_CERTIFICATE_LOCATION=./user.crt
+KAFKA_SSL_CERTIFICATE_LOCATION=./user.crt [./user.pem]
 KAFKA_SSL_KEY_LOCATION=./user.key
 KAFKA_SSL_KEY_PASSWORD=SOME_PASSWORD
 ```
-
+For more information [Using SSL with librdkafka](https://github.com/edenhill/librdkafka/wiki/Using-SSL-with-librdkafka)
 
 ## [v1.0.1 - 2020-09-22](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.0...v1.0.1)
 
