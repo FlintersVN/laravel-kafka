@@ -21,10 +21,18 @@ class KafkaServerProvider extends ServiceProvider
         });
 
 
-        $this->app->singleton(RdKafka::class, function () {
+        $this->app->singleton(RdKafka::class, function ($app) {
             $conf = new Conf();
-            $conf->set('log_level', (string) LOG_DEBUG);
-            $conf->set('debug', 'all');
+
+            $config = $app['config']->get('kafka');
+
+            $options = $config['options'] ?? [];
+            foreach ($options as $option => $value) {
+                $conf->set($option, $value);
+            }
+
+//            $conf->set('log_level', (string) LOG_DEBUG);
+//            $conf->set('debug', 'all');
             return new Producer($conf);
         });
 
