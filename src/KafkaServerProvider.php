@@ -30,9 +30,6 @@ class KafkaServerProvider extends ServiceProvider
             foreach ($options as $option => $value) {
                 $conf->set($option, $value);
             }
-
-//            $conf->set('log_level', (string) LOG_DEBUG);
-//            $conf->set('debug', 'all');
             return new Producer($conf);
         });
 
