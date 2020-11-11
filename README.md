@@ -11,9 +11,9 @@ composer require septech-laravel/kafka
 ```
 # The kafka brokers, seperate by command
 KAFKA_BROKERS=10.0.0.2,127.0.0.1
-
-# For SSL connection (Kafka SSL client)
 KAFKA_SSL_CA_LOCATION=./ca.crt
+
+# For SSL client
 KAFKA_SSL_CERTIFICATE_LOCATION=./user.crt
 KAFKA_SSL_KEY_LOCATION=./user.key
 KAFKA_SSL_KEY_PASSWORD=SOME_PASSWORD
