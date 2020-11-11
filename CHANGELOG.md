@@ -8,6 +8,8 @@
 - Using config from env variables for SSL connection (Kafka SSL client)
 ```
 KAFKA_SSL_CA_LOCATION=./ca.crt
+
+# For SSL client
 KAFKA_SSL_CERTIFICATE_LOCATION=./user.crt [./user.pem]
 KAFKA_SSL_KEY_LOCATION=./user.key
 KAFKA_SSL_KEY_PASSWORD=SOME_PASSWORD
