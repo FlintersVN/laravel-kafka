@@ -27,6 +27,11 @@ class KafkaServerProvider extends ServiceProvider
             $config = $app['config']->get('kafka');
 
             $options = $config['options'] ?? [];
+
+            if ($config['tls']) {
+                $options = array_merge($options, $config['tls_options']);
+            }
+
             foreach ($options as $option => $value) {
                 $conf->set($option, $value);
             }
