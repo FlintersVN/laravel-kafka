@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.3...master)
+## [Unreleased](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.4...master)
+
+## [v1.0.4 - 2020-11-18](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.1...v1.0.4)
+
+### Changed
+- Add `SECURITY_PROTOCOL` to environment variable instead of hard fixed
 
 ## [v1.0.3 - 2020-11-10](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.1...v1.0.3)
 
