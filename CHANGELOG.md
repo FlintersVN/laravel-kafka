@@ -2,6 +2,11 @@
 
 ## [Unreleased](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.4...master)
 
+## [v1.0.5 - 2020-11-18](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.1...v1.0.5)
+
+### Changed
+- Change Kafka config
+
 ## [v1.0.4 - 2020-11-18](https://github.com/SepteniTechnology/laravel-kafka/compare/v1.0.1...v1.0.4)
 
 ### Changed
